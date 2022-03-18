@@ -253,9 +253,13 @@ nav ul li {
   background-color: aquamarine;
 }
 
+.grids:hover {
+  transform: scale(105%);
+}
+
 .grid1 {
   grid-area: grid1;
-  background-image: url("http://source.unsplash.com/Yg_sNKOiXvY");
+  background-image: url("http://source.unsplash.com/Yg_sNKOiXvY") ;
   alt: "kuwala";
   background-size: cover;
   background-position: center;
@@ -391,9 +395,6 @@ nav ul li {
     bottom: 3%;
     cursor: pointer;
   }
-
-  
-  
 
   nav ul {
     position: fixed;
