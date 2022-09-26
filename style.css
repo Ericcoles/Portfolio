@@ -13,12 +13,12 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  background-color: ;
   --bg-color: #f0f8ff;
   --primary-color: #4756df;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
+  --third-shadow: #c19fdd;
   --bottom-margin: 0.75rem;
   --bottom-margin-2: 1.25rem;
   --line-height: 2rem;
@@ -173,7 +173,7 @@ nav ul li {
 
 /* about */
 .about {
-  background-color: var(--secondary-shadow);
+  background-color: var(--third-shadow);
   padding: 1rem 6rem;
 }
 
